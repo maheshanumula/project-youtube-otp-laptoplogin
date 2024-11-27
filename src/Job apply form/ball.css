@@ -1,0 +1,26 @@
+ /*.mahesh{
+    color: white;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 450px;
+   
+      
+  }
+  .center input{
+    display:flex;
+    border-radius: 15px;
+    height: 25px;
+    width: 250px;
+  }
+  button{                       
+    border-radius: 15px;
+    width: 100px;
+    height: 35px;
+    margin-top: 7px;
+    margin-left: -140px;
+    background-color: yellow;
+    color: black;
+  }*/
