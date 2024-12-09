@@ -1,3 +1,4 @@
+
 import Firstcomponent from "./Job apply form/Firstcomponent";
 import Thirdcomp from "./Laptop login/Thirdcomp";
 import Firstone from "./Otpform/Firstone";
@@ -23,8 +24,13 @@ const App = () => {
 {/*<Thirdcomp/> ..loginform.. */}
 
 {/*<Firstcomponent/> ..job apply form*/}
+ <Firstone/>
+<Firstone/>
 
-{/*<Firstone/> otp form */}
+
+
+
+
     </div>
    );
 }

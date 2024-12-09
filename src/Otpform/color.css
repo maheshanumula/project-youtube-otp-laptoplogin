@@ -1,5 +1,5 @@
 
-/*body{
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -48,8 +48,8 @@ input::placeholder{
     text-align: center;
 }
 .nember p{
-    margin-top: -20px;
-    margin-left: 170px;
+    margin-top: -15px;
+    margin-right: -160px;
 
 }
 .buttonname{
@@ -60,12 +60,15 @@ input::placeholder{
    border-radius: 50px;
    border: none;
    outline: none;
-   background-color: rgb(5, 42, 75);
+   background-color: rgb(9, 70, 122);
    color: white;
    font-size: 18px;
-   box-shadow: 0 0  13px rgb(13, 13, 13)k;
+   box-shadow: 0 0  13px rgb(13, 13, 13);
 }
 .buttonname:hover{
-    background-color: rgb(39, 35, 35);
-    color: white;
-}*/
+    background-color: rgb(231, 224, 224);
+    box-shadow: 5px 5px 15px  rgb(13, 13, 13),-5px -5px 15px  rgb(13, 13, 13);
+    color: rgb(8, 8, 8);
+}
+
+    

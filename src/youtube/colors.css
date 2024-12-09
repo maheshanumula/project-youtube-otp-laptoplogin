@@ -1,4 +1,4 @@
-   .header{
+   /*.header{
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -128,7 +128,7 @@ height: 35px;
 }
 .main p:hover{
     background-color: rgb(231, 225, 217); 
-}
+}*/
 
 
 
