@@ -15,6 +15,11 @@
     height: 25px;
     width: 250px;
   }
+
+  input::placeholder{
+    text-align: center;
+    font-size: 200px;
+  }
   button{                       
     border-radius: 15px;
     width: 100px;

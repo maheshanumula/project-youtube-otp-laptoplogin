@@ -14,17 +14,16 @@ const Thirdcomp = () => {
      console.log(value)
     }
 
-
     return ( 
         <div>
          
             <form onSubmit={user}>
              <div className="section">
-               
+              
                 <img src="photos/pic.jpg.jpeg" /><br/>
                 <h1>mahesh</h1>
                                                   
-               <input type="password" placeholder ="  Password "name = "value" onChange={(e)=>setValue(e.target.value)}/><FaLongArrowAltRight className="icon"/><br/>
+               <input type="password" placeholder ="  Password "name = "password" onChange={(e)=>setValue(e.target.value)}/><FaLongArrowAltRight className="icon"/><br/>
                 
                <button className="btn" type="submit">submit</button>
              </div>

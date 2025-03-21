@@ -1,4 +1,4 @@
-/*body{
+body{
     background-color: rgb(82, 116, 148);
     color: rgb(127, 243, 19);
 }
@@ -9,14 +9,16 @@
     margin-top: 100px;
     height: 60vh;
     width: 80vh;
-    background-color: blue;
+    background-color: rgb(95, 95, 228);
     text-align: center;
     margin-left: 450px; 
-    padding-top: 40px;  
+    padding-top: 40px;
+    border: 2px solid white;  
+    border-radius: 10px;
  }
  input::placeholder{
     font-size: 15px;
-    padding-left: 8px;
+    margin-left: 100px;
  }
  
  .section img{
@@ -24,6 +26,7 @@
      height: 150px;
      border-radius: 50%;
     margin: 0 auto;
+    border: 1.5px solid rgb(0, 0, 0);
  }
  .section h1{
      text-align: center;
@@ -37,7 +40,10 @@
      border-radius: 20px;
      width: 200px;
      height: 27px;
-   text-align: center;
+     text-align: center;
+     border: none;
+   
+
  }
  .btn{
      border-radius: 20px;
@@ -46,11 +52,15 @@
      color: black;
      width: 60px;
      height: 30px;
+     border: none;
+     
 
  }
  .btn:active{
-background-color: green;
+background-color: rgb(5, 5, 5);
  }
  .icon{
     margin-left: -20px;
- }*/
+    color: black;
+  
+ }

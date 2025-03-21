@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import "./color.css"
 import { IoMail } from "react-icons/io5";
 
-
 import React, { useRef } from "react";
 
 
@@ -26,12 +25,9 @@ const handleChange = (e,index) => {
 
 const Otpmsg =()=>{
   confirm("Completed Your OTP verify")
- 
-  
 }
 
 useEffect(() => {
-
   const current =setInterval( ()=>{
 setTime(new Date())
   },1000)

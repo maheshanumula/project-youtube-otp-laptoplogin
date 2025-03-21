@@ -16,7 +16,7 @@ const Firstcomponent = ()=>{
             <div className="mahesh">
                 <div className="center">
                     <h1>Apply these job!!!</h1>
-                <form onSubmit={User}>
+                <form  onSubmit={User}>
                 <label>Enter your Name</label><br/>
                  <input type="text" name ="name" onChange={(e)=>setName(e.target.value)} /><br/>
                 <label>Enter Email</label><br/>
@@ -30,7 +30,7 @@ const Firstcomponent = ()=>{
                 <button>submit</button>
                 </form>
                 </div>              
-        </div>
+            </div>
     )
 }
 export default Firstcomponent;

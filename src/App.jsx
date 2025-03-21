@@ -6,14 +6,6 @@ import Onee from "./youtube/Onee";
 import Secoundcomponent from "./youtube/Secoundcomponent";
 import Third from "./youtube/Third";
 
-
-
-
-
-
-
-
-
 const App = () => {
   return ( 
     <div>
@@ -24,13 +16,8 @@ const App = () => {
 {/*<Thirdcomp/> ..loginform.. */}
 
 {/*<Firstcomponent/> ..job apply form*/}
- <Firstone/>
-<Firstone/>
 
-
-
-
-
+  <Thirdcomp/>
     </div>
    );
 }
